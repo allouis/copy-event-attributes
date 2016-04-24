@@ -1,6 +1,6 @@
 {
   "name": "copy-event-attributes",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Copies event attributes from one DOM node to another",
   "main": "index.js",
   "scripts": {
