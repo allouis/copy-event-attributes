@@ -3,7 +3,6 @@ var defaultEvents = require('./update-events')
 module.exports = copyEvents
 function copyEvents (f, t, customEvents) {
   var events = customEvents || defaultEvents
-  console.log(events)
   for (var i = 0; i < events.length; i++) {
     var ev = events[i]
       if (t[ev]) { // if new element has a whitelisted attribute
