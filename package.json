@@ -1,0 +1,31 @@
+{
+  "name": "copy-event-attributes",
+  "version": "0.0.0",
+  "description": "Copies event attributes from one DOM node to another",
+  "main": "index.js",
+  "scripts": {
+    "test": "wzrd test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/allouis/copy-event-attributes.git"
+  },
+  "keywords": [
+    "event",
+    "attributes",
+    "morphdom"
+  ],
+  "author": "Fabien O'Carroll <fabien@allou.is>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allouis/copy-event-attributes/issues"
+  },
+  "homepage": "https://github.com/allouis/copy-event-attributes#readme",
+  "devDependencies": {
+    "bel": "4.3.1",
+    "browserify": "13.0.0",
+    "morphdom": "1.3.0",
+    "tape": "4.5.1",
+    "wzrd": "1.3.1"
+  }
+}
