@@ -17,7 +17,7 @@ var copyEvents = require('copy-event-attributes')
 var morphdom = require('morphdom')
 
 morphdom(fromEl, toEl, {
-  onBeforeMorphEl: copyEvents
+  onBeforeElUpdated: copyEvents
 })
 ```
 
@@ -33,6 +33,6 @@ function copyCustomEvents (fromEl, toEl) {
 }
 
 morphdom(fromEl, toEl, {
-  onBeforeMorphEl: copyCustomEvents
+ onBeforeElUpdated: copyCustomEvents
 })
 ```
