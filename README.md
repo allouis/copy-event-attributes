@@ -2,6 +2,18 @@
 
 This was pulled out of [yo-yo](https://github.com/maxogden/yo-yo) because I wanted the nicer [morphdom](https://github.com/patrick-steele-idem/morphdom) it provides, but without the dependency on [bel](https://github.com/shama/bel)
 
+### install
+
+###### yarn
+```shell
+yarn add copy-event-attributes
+```
+
+###### npm
+```shell
+npm install --save copy-event-attributes
+```
+
 ### usage
 
 ```javascript
